@@ -169,7 +169,7 @@
                       // menjalankan perintah select ke tabel
                       $result = mysqli_query($conn, $select_query);
                       if ($result) {
-                        // menampilkan dalam bentuk html
+                        // menampilkan dalam bentuk htmll
                         while ($row = mysqli_fetch_array($result)) {
                       ?>
                           <tr>
